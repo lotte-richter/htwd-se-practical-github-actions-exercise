@@ -32,7 +32,11 @@ public class Town {
   }
 
   public void setResidents(int residents) {
-    this.residents = residents;
+    if(residents >= 0){
+      this.residents = residents;
+    } else {
+      this.residents = 0;
+    }
   }
 
   /** Returns the summarized information of the town. */
