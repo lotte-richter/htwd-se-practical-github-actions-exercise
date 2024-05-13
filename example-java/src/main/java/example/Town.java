@@ -32,11 +32,10 @@ public class Town {
   }
 
   public void setResidents(int residents) {
-    if(residents >= 0){
-      this.residents = residents;
-    } else {
-      this.residents = 0;
+    if(residents < 0){
+      throw new IllegalArgumentException("residents must be >= 0: "+residents);
     }
+    this.residents = residents;
   }
 
   /** Returns the summarized information of the town. */
