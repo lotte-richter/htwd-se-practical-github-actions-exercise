@@ -2,6 +2,7 @@ package example;
 
 /**
  * Represents a town with name and number of residents.
+ * (x)
  */
 public class Town {
 
