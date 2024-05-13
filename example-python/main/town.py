@@ -1,6 +1,6 @@
 class Town:
     """
-    Represents a town with name and number of residents.
+    Represents a town with name and number of residents. (x)
 
     :param str name: The name of the town.
     :param int residents: The number of residents in the town.
